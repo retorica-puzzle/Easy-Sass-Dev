@@ -4,7 +4,11 @@
   "description": "Structure project for development Static Website using SASS, Laravel Mix and Golang as local server",
   "main": "webpack.mix.js",
   "scripts": {
-    "test": "test"
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "production": "mix --production"
   },
   "keywords": [
     "static",
