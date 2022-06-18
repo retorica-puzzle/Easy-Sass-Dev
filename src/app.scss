@@ -1,24 +1,67 @@
-@import 'app/variabel';
+//Variable
+@import 'app/variable';
 
 //Base
 @import 'app/base';
 
 //Desktop
-.footer-wrapper {
-
+.navbar {
+    background-color: $color-white;
+    position: fixed;
+    top: 0;
     display: flex;
     flex-direction: row;
-    gap: 20;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
 
-    .footer-wrapper__left {
-        
+    .navbar-brand {
+        justify-content: left;
+        color: $color-white;
+        font-size: 20px;
+        text-transform: uppercase;
     }
 
-    .footer-wrapper__center {
+    .navbar-nav {
+        list-style: none;
+        display: flex;
+        justify-content: right;
+        width: 100%;
 
+        li {
+
+            margin: 0 20px;
+
+            a {
+                color: $color-green;
+            }
+        }
     }
 
-    .footer-wrapper__right {
+}
 
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+    h1 {
+        color: $color-white;
+        z-index: 1;
     }
+}
+
+.footer-wrapper {
+
+    background-color: $color-white;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
 }
