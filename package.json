@@ -1,0 +1,27 @@
+{
+  "name": "secret-paradise",
+  "version": "1.0.0",
+  "description": "Static Website with php, html, sass, js and laravel-mix",
+  "main": "webpack.mix.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "static",
+    "website",
+    "php",
+    "html",
+    "sass",
+    "js",
+    "laravel-mix"
+  ],
+  "author": "retorica-puzzle",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "laravel-mix": "^6.0.49",
+    "sass": "^1.52.3",
+    "sass-loader": "^12.1.0"
+  }
+}
