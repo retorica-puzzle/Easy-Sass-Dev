@@ -8,7 +8,7 @@ mix.browserSync({
     files: [
         'views/**/*'
     ],
-    proxy: 'http://localhost'
+    proxy: 'http://localhost:3000/'
 });
 
 mix.options({
