@@ -1,7 +1,7 @@
 {
-  "name": "secret-paradise",
+  "name": "Easy-Sass-Dev",
   "version": "1.0.0",
-  "description": "Static Website with php, html, sass, js and laravel-mix",
+  "description": "Structure project for development Static Website using SASS, Laravel Mix and Golang as local server",
   "main": "webpack.mix.js",
   "scripts": {
     "test": "test"
@@ -16,7 +16,11 @@
     "laravel-mix"
   ],
   "author": "retorica-puzzle",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/retorica-puzzle/Easy-Sass-Dev"
+  },
+  "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.27.10",
     "browser-sync-webpack-plugin": "^2.3.0",
