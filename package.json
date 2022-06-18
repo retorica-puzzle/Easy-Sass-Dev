@@ -1,7 +1,7 @@
 {
   "name": "Easy-Sass-Dev",
   "version": "1.0.0",
-  "description": "Structure project for development Static Website using SASS, Laravel Mix and Golang as local server",
+  "description": "Structure project for development Static Website using SASS, Laravel Mix and Golang as local server (AUTORELOAD)",
   "main": "webpack.mix.js",
   "scripts": {
     "development": "mix",
